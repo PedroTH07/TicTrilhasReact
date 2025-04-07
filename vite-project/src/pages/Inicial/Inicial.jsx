@@ -1,10 +1,10 @@
-
+import { FormsCriarTarefa } from "../../componentes";
 
 const Inicial = () => {
     return (
-        <div>
-            inicial
-        </div>
+        <>
+            <FormsCriarTarefa />
+        </>
     );
 }
 
