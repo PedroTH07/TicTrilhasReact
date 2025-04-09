@@ -1,4 +1,4 @@
-import { Cabecalho, Conteudo, Rodape } from './componentes';
+import { Cabecalho, Conteudo, Rodape } from './components';
 import { Inicial } from './pages';
 
 import './App.css';
