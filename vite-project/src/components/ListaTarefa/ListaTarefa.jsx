@@ -1,12 +1,8 @@
 import style from './ListaTarefa.module.css';
 import { ListaTarefaItem } from './ListaTarefaItem';
 
-const ListaTarefa = () => {
-    const tarefas = [
-        {id: 1, nome: "item 1"},
-        {id: 2, nome: "item 2"},
-        {id: 3, nome: "item 3"}
-    ];
+const ListaTarefa = (props) => {
+    const { tarefas } = props;
 
     return (
         <ul className={style.ListaTarefa}>
